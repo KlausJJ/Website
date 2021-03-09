@@ -9,27 +9,4 @@
 body{
     display: flex;
     justify-content: center;
-<<<<<<< HEAD
-    align-items: center;
-    backdrop-filter: blur(7.5px);
-}
-
-#text-panel {
-    width: 750px;
-    height: 800px;
-    background-color: white;
-    opacity: 0.95;
-
-    border-radius: 50px;
-    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
-    box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2), 
-                15px 15px 15px rgba(0, 0, 0, 0.1);
-}
-
-#content-container {
-    width: 90%;
-    height: 100%;
-    margin: auto;
-=======
->>>>>>> 279baff1e57199442b13658b5c72233816c92110
 }
