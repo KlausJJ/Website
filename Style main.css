@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 #page-hero{
@@ -45,3 +46,80 @@
     height: 100%;
     margin: auto;
 }
+
+#content-headline { 
+    height: 205px;
+    display: block;
+    border-bottom: 1px solid green;
+}
+
+#logo{
+    width: 180px;
+    height: 60px;
+    background-image: url(Mroczek_Logo.jpg);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+#headline-container {
+    border-top: 1px solid green;
+    margin-top: 20px;
+    padding: 0;
+    text-align: center;
+}
+
+#headline{
+    margin-left: 20px;
+    font-size: 3em;
+    line-height: 1.25em;
+}
+
+#content-2 {
+
+}
+
+#content {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 1.25em;
+}
+
+#content-3 {
+    margin-top: 70px;
+    border-top: 1px solid green;
+}
+
+
+#contact-headline{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-name {
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+#contact-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#contact-content p {
+    margin-left: 10px;
+}
+
+#contact-content a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
