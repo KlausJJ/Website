@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#page-hero{
+
+}
+
+#page-background {
+    width: 100%;
+    height: 100vh;
+
+    /*Beispielbild*/
+    background-image: url(Schule.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#text-panel-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(7.5px);
+}
+
+#text-panel {
+    width: 750px;
+    height: 800px;
+    background-color: white;
+
+    border-radius: 50px;
+    border: solid 2px gray;
+}
