@@ -13,7 +13,7 @@
     height: 100vh;
 
     /*Beispielbild*/
-    background-image: url(Schule.jpg);
+    background-image: url(Holstentor.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,9 +31,9 @@
 
 #text-panel {
     width: 750px;
-    height: 800px;
+    /*height: 800px 90%;*/
     background-color: white;
-    opacity: 0.95;
+    opacity: 0.8;
 
     border-radius: 50px;
     /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
@@ -48,7 +48,6 @@
 }
 
 #content-headline { 
-    height: 205px;
     display: block;
     border-bottom: 1px solid green;
 }
@@ -111,6 +110,7 @@
     display: flex;
     justify-content: center;
     margin-top: 15px;
+    margin-bottom: 10px;
 }
 
 #contact-content p {
